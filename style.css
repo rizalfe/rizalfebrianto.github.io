@@ -2,7 +2,7 @@ body {
     width: 100%;
     background-color: white;
     font-family: 'Open Sans', sans-serif;
-    margin: 0 auto;
+    margin: 0px;
 }
 
 header {
@@ -119,26 +119,6 @@ header li {
     padding-top: 5px;
 }
 
-#separator-readmore1 {
-    height: 30px;
-    background-color: lightgray;
-    text-align: center;
-    text-decoration: none;
-    margin-bottom: 50px;
-}
-
-#separator-readmore1:hover {
-    background-color: darkgray;
-}
-
-#separator-readmore1 p {
-    color: black;
-    padding-top: 3px;
-    display: block;
-    font-size: 14px;
-    padding-top: 5px;
-}
-
 a {
     text-decoration: none;
     color: black;
@@ -233,11 +213,9 @@ button:hover {
 
 
 
-
-
 /* CSS untuk project.html */
 
-#comingsoon {
+#project {
     width: 100%;
     background: url(img/photo-1524260855046-f743b3cdad07.jpeg);
     background-position: center;
@@ -250,11 +228,11 @@ button:hover {
     opacity: 0.8;
 }
 
-#comingsoon h1 {
+#project h1 {
     margin-top: 200px;
     padding: 100px;
     font-family: 'Jomolhari', serif;
-    font-size: 50px;
+    font-size: 20px;
 }
 
 
@@ -307,6 +285,66 @@ button:hover {
 
 
 
+/* CSS untuk about.html */
+
+.content-about {
+    width: 70%;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#about {
+    width: 100%;
+    background: url(img/photo-1524260855046-f743b3cdad07.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    height: 700px;
+    display: inline-block;
+    text-align: center;
+    opacity: 0.8;
+}
+
+#about h1 {
+    margin-top: 200px;
+    padding: 100px;
+    font-family: 'Jomolhari', serif;
+    font-size: 20px;
+    display: none;
+}
+
+#aboutme {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#aboutme img {
+    width: 30%;
+}
+
+#aboutme img:hover {
+    background-color: red;
+}
+
+.content-about #github img {
+    width: 5%;
+}
+
+.content-about #instagram img {
+    width: 5%;
+}
+
+.content-about #facebook img {
+    width: 5%;
+}
+
+.content-about #twitter img {
+    width: 5%;
+}
+
+
+
 /* CSS untuk subscribe.html */
 
 #congratulation {
@@ -335,7 +373,7 @@ button:hover {
 
 #bandungpart1 {
     width: 100%;
-    background: url(img/_108578000_gettyimages-923316538.jpg);
+    background: url(img/braga.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -410,4 +448,127 @@ button:hover {
 
 #info p {
     margin-left: 0px;
+    margin-right: 200px;
+}
+
+
+
+/* CSS untuk finalprojectinpg.html */
+
+#project1 {
+    width: 100%;
+    background: url(img/Screenshot\ from\ 2019-10-20\ 08-27-03.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    height: 700px;
+    display: inline-block;
+}
+
+.content-pro1 {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.content-pro1 h2 {
+    font-family: 'Playfair Display', serif; 
+}
+
+.content-pro1 p {
+    text-align: justify;
+    font-family: 'Assistant', sans-serif;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+
+/* CSS untuk cafepink.html */
+
+#cafepink {
+    width: 100%;
+    background: url(img/IMG_2227.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    height: 700px;
+    display: inline-block;
+}
+
+#tanggal h3 {
+    text-align: left;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: 'Playfair Display', serif;
+}
+
+.content-cul1 {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.content-cul1 h2 {
+    font-family: 'Playfair Display', serif; 
+}
+
+.content-cul1 p {
+    text-align: justify;
+    font-family: 'Assistant', sans-serif;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+
+/* CSS untuk cheesetart.html */
+
+#cheesetart {
+    width: 100%;
+    background: url(img/IMG_0641.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    height: 700px;
+    display: inline-block;
+}
+
+#tanggal h3 {
+    text-align: left;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: 'Playfair Display', serif;
+}
+
+.content-cul2 {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.content-cul2 h2 {
+    font-family: 'Playfair Display', serif; 
+}
+
+.content-cul2 p {
+    text-align: justify;
+    font-family: 'Assistant', sans-serif;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+
+/* CSS untuk footer */
+
+footer {
+    width: 100%;
+    height: 55px;
+    background-color: darkslategray;
+    text-align: center;
+}
+
+footer h5 {
+    padding-top: 14px;
 }
